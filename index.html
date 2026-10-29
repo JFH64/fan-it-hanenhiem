@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fan it Hanenhiem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="sidebar">
+  <div class="brand-row">
+    <a class="brand" href="index.html">Fan it <br>Hanenhiem</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="nav"><ul>
+<li><a href="index.html" aria-current="page">Startpagina</a></li>
+<li><a href="hoe-zijn-we-begonnen.html">Hoe zijn we begonnen.</a></li>
+<li><a href="in-memoriam-nada-debby.html">In memoriam: Nada Debby</a></li>
+<li><a href="kampioen-hoscy.html">Kampioen Hoscy</a></li>
+<li><a href="onze-honden-door-de-jaren-heen.html">Onze honden door de jaren heen.</a></li>
+<li><a href="onze-huidige-honden.html">Onze huidige honden.</a><ul class="sub"><li><a href="b-nest-13-april-2008.html">B-nest 13 april 2008</a></li></ul></li>
+  </ul></nav>
+  <p class="side-note">Bouvierkennel<br>Fam. de Haan<br>Zwaagwesteinde (Frl.)</p>
+</header>
+<main>
+  <h1>Startpagina</h1>
+  <p class="welcome"><strong>Welkom bij Bouvierkennel Fan it Hanenhiem</strong></p>
+  <figure class="photo hero"><img src="images/home-nada-vedra-bowie.jpg" alt="Drie bouviers liggend in het gras"></figure>
+  <section class="contact">
+    <h2>Ons adres:</h2>
+    <address>
+      <strong>Bouvierkennel<br>Fan it Hanenhiem</strong><br>
+      Fam. de Haan<br>
+      Zwaagwesteinde (Frl.)
+    </address>
+  </section>
+  <footer>Bouvierkennel Fan it Hanenhiem · Fam. de Haan · Zwaagwesteinde (Frl.)</footer>
+</main>
+<script>
+const b=document.querySelector('.menu-toggle'),n=document.getElementById('nav');
+b.addEventListener('click',()=>{const o=document.body.classList.toggle('nav-open');b.setAttribute('aria-expanded',o);});
+</script>
+</body>
+</html>
